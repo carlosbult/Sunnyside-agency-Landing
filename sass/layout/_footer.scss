@@ -1,0 +1,34 @@
+.footer {
+  background-color: var(--Dark-moderate-cyan-footer);
+  text-align: center;
+  padding: 4em 0 4em 0;
+  &__logo {
+    height: 50px;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em 0 3em 0;
+    &--link {
+      font-size: 1.2em;
+      text-decoration: none;
+      color: var(--Dark-desaturated-cyan-graphic-design-text);
+    }
+    :hover {
+      color: var(--White);
+    }
+  }
+  &__icons {
+    img {
+      margin: 2em 1em 0 1em;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    &__links {
+      justify-content: space-evenly;
+    }
+  }
+}

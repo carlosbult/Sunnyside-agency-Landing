@@ -1,0 +1,68 @@
+.testimonials {
+  text-align: center;
+  margin: 5em 0 5em 0;
+  &__title {
+    color: var(--Grayish-blue);
+    letter-spacing: 0.3em;
+    font-family: "Fraunces";
+    font-size: 1.5em;
+  }
+  &__card {
+    width: 90%;
+    margin: 4em auto 2em auto;
+    &--img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 2em;
+    }
+    &--paragraph {
+      font-size: 1.3em;
+      margin-bottom: 2em;
+      line-height: 2em;
+      color: var(--Very-dark-grayish-blue);
+    }
+    &--name {
+      font-size: 1.5em;
+      font-family: "Fraunces";
+      color: var(--Very-dark-desaturated-blue);
+      margin: 1em 0 1em 0;
+    }
+    &--job {
+      color: var(--Grayish-blue);
+    }
+  }
+}
+
+.testimonials__img {
+  display: flex;
+  flex-wrap: wrap;
+  &--item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__img {
+    display: flex;
+    flex-wrap: wrap;
+    &--item {
+      width: 25%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonials {
+    &__cards {
+      width: 90%;
+      margin: auto;
+      display: flex;
+    }
+    &__card {
+      &--paragraph {
+        padding: 1em;
+      }
+    }
+  }
+}
