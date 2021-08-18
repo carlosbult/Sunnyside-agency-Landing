@@ -23,6 +23,7 @@ header {
 header .menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header .menu__logo {
   height: 2em;
