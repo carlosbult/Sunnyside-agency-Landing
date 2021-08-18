@@ -83,8 +83,10 @@ header {
       &__hamburguer {
         display: none;
       }
-      &__list {
+      &__list-none{
         display: flex;
+      }
+      &__list {
         position: relative;
         padding: 0;
         margin: 0;

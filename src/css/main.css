@@ -95,8 +95,10 @@ header .content-header .arrow {
   header .menu__hamburguer {
     display: none;
   }
-  header .menu__list {
+  header .menu__list-none {
     display: flex;
+  }
+  header .menu__list {
     position: relative;
     padding: 0;
     margin: 0;
